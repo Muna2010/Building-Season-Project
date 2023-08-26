@@ -1,0 +1,73 @@
+.navigation{
+    display: flex;
+    border: 8px soid black;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f397d6;
+}
+
+.navigate{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s;
+}
+
+.navigate:hover{
+    color: #f42272;
+}
+
+#home{
+    background-color: #f397d6;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+.primaryButton{
+    background-color: #f42272;
+    color: black;
+    border: 1px solid #f397d6;
+}
+
+.button{
+    background-color: #f42272;
+    color: black;
+    border: 1px solid #f397d6;
+    height: 50px;
+    width: 100px;
+
+    border-radius: 10px;
+}
+
+.hero-image{
+    height: 300px;
+    width: 300px;
+}
+
+.bag{
+    height: 250px;
+    width: 250px;
+}
+
+.boxContainer{
+    background-color: #f397d6;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.secondaryButton{
+    background-color: #f42272;
+    color: black;
+}
+
+.title-sell{
+    background-color: #f397d6;
+    align-items: center;
+}
+
+.my-works{
+    background-color: #f397d6;
+}
